@@ -15,12 +15,12 @@ const Menu = [
      },
      {
         id: 3,
-        name: "Drinks",
+        name: "Beverages",
         link:"#"
      },
      {
         id: 4,
-        name: "Ice Creams",
+        name: "Treats",
         link:"#"
      },
      {
@@ -78,7 +78,7 @@ const Navbar = () => {
                                     <li key={menu.id}>
                                         <a 
                                         href={menu.link}
-                                        className='inline-block text-xl p-4 hover:bg-primary hover:text-white w-full' // Apply CSS classes
+                                        div className='inline-block text-xl p-4 hover:bg-yellow-300 hover:text-white w-full rounded-md' // Apply CSS classes
                                         >
                                             {menu.name} {/* Render the name of the menu item */}
                                         </a>
