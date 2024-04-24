@@ -11,3 +11,9 @@
          duration-200 text-white py-2 rounded-full;
     }
 }
+
+@layer utilities {
+    .shadow-1 {
+        @apply drop-shadow-[-15px_15px_15px_rgba(0,0,0,0.5)];
+    }
+}

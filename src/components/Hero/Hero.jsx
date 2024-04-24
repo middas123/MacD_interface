@@ -1,5 +1,5 @@
 import React from 'react';
-import Burgersjpg from "../../assets/Burgers.jpg"
+import Chipsjpg from "../../assets/Chips.jpg"
 
 const Hero = () => {
   return (
@@ -28,8 +28,14 @@ const Hero = () => {
                </div>
 
               {/* Hero Image Section  */}
-              <div>
-                <img src={Burgersjpg} />
+              <div className='min-h-[450px] flex justify-center items-center relative order-1 sm:order-2'>
+                <img 
+                  src={Chipsjpg} 
+                     className='max-w-[350px] w-full mx-auto sm:scale-125 shadow-1 p-4 rounded-lg'
+                />
+                <div className='bg-yellow-500 p-3 rounded-xl absolute top-10 left-10 hidden md:block text-white'>
+                    <h1 className=''>Fresh Food</h1>
+                </div>
               </div>
             </div>
           </div>
